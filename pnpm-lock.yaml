@@ -227,7 +227,7 @@ importers:
       chokidar: ^3.5.3
       connect: ^3.7.0
       connect-history-api-fallback: ^2.0.0
-      convert-source-map: ^1.9.0
+      convert-source-map: ^2.0.0
       cors: ^2.8.5
       cross-spawn: ^7.0.3
       debug: ^4.3.4
@@ -295,7 +295,7 @@ importers:
       chokidar: 3.5.3
       connect: 3.7.0
       connect-history-api-fallback: 2.0.0
-      convert-source-map: 1.9.0
+      convert-source-map: 2.0.0
       cors: 2.8.5
       cross-spawn: 7.0.3
       debug: 4.3.4
@@ -337,13 +337,13 @@ importers:
 
   playground:
     specifiers:
-      convert-source-map: ^1.9.0
+      convert-source-map: ^2.0.0
       css-color-names: ^1.0.1
       kill-port: ^1.6.1
       node-fetch: ^3.2.10
       sirv: ^2.0.2
     devDependencies:
-      convert-source-map: 1.9.0
+      convert-source-map: 2.0.0
       css-color-names: 1.0.1
       kill-port: 1.6.1
       node-fetch: 3.2.10
@@ -3844,6 +3844,10 @@ packages:
 
   /convert-source-map/1.9.0:
     resolution: {integrity: sha512-ASFBup0Mz1uyiIjANan1jzLQami9z1PoYSZCiiYW2FczPbenXc45FZdBZLzOT+r6+iciuEModtmCti+hjaAk0A==}
+
+  /convert-source-map/2.0.0:
+    resolution: {integrity: sha512-Kvp459HrV2FEJ1CAsi1Ku+MY3kasH19TFykTz2xWmMeq6bk2NU3XXvfJ+Q61m0xktWwt+1HSYf3JZsTms3aRJg==}
+    dev: true
 
   /cookie-signature/1.0.6:
     resolution: {integrity: sha512-QADzlaHc8icV8I7vbaJXJwod9HWYp8uCqf1xa4OfNu1T7JVxQIrUgOWtHdNDtPiywmFbiS12VjotIXLrKM3orQ==}
