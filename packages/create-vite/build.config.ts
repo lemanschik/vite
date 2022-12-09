@@ -3,7 +3,7 @@ import url from 'node:url'
 // eslint-disable-next-line node/no-extraneous-import
 import type { Plugin } from 'rollup'
 import { defineBuildConfig } from 'unbuild'
-import licensePlugin from '../../scripts/rollupLicensePlugin.mjs'
+import licensePlugin from '../vite/rollupLicensePlugin'
 
 const __dirname = path.dirname(url.fileURLToPath(import.meta.url))
 
