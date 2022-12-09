@@ -34,8 +34,8 @@ export default function licensePlugin(
       }
       const licenses = new Set<string>()
       const dependencyLicenseTexts = dependencies
-        .sort(({ name: _nameA }, { name: _nameB }) => {
-          return _nameA! > _nameB! ? 1 : _nameB! > _nameA! ? -1 : 0
+        .sort(({ name: nameA }, { name: nameB }) => {
+          return nameA! > nameB! ? 1 : nameB! > nameA! ? -1 : 0
         })
         .map(
           ({
