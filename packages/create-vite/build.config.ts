@@ -1,5 +1,7 @@
 import path from 'node:path'
 import url from 'node:url'
+// eslint-disable-next-line node/no-extraneous-import
+import type { Plugin } from 'rollup'
 import { defineBuildConfig } from 'unbuild'
 import licensePlugin from '../../scripts/rollupLicensePlugin.mjs'
 
@@ -23,7 +25,7 @@ export default defineBuildConfig({
       if (!options.plugins) {
         options.plugins = []
       }
-      options.plugins.push(
+      ;(options.plugins as Plugin[]).push(
         licensePlugin(
           path.resolve(__dirname, './LICENSE'),
           'create-vite license',
