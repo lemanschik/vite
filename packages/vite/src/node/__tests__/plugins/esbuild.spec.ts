@@ -1,7 +1,6 @@
 import { describe, expect, test } from 'vitest'
 import type { ResolvedConfig, UserConfig } from '../../config'
 import {
-  ESBuildTransformResult,
   resolveEsbuildTranspileOptions,
   transformWithEsbuild,
 } from '../../plugins/esbuild'
