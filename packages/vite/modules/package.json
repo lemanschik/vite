@@ -1,0 +1,6 @@
+{
+  "name": "vite-modules",
+  "version": "0.0.0-pre.0",
+  "descritption": "The Real Vite without obfusication also main contribution entry point drop in replacement for vite",
+  "workspaces": ["../packages/**/*"]
+}
